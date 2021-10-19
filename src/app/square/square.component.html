@@ -1,0 +1,4 @@
+<button nbButton hero *ngIf="!this.value"></button>
+<button nbButton hero status="success" *ngIf="this.value=='O'">{{this.value}}</button>
+<button nbButton hero status="danger" *ngIf="this.value=='X'">{{this.value}}</button>
+

@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  //grid-gap: 0px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+app-square {
+  border: 1px grey solid;
+  //background-color: aqua;
+  height: 100px;
+}
+
+
+.mt-3 {
+  margin-top: 2%;
+}
